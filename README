@@ -1,0 +1,12 @@
+Operation: Stick Figure Army (OSFA)
+
+Sara Doan
+sdoan1@gmail.com
+
+OSFA is a 2D to 3D transformation tool to increase accessibility for blind students in the classroom. It allows users to open or create new files for editing in 2D view, then users can send that image to Blender for 3Dification. The resulting products are ultimately expected to be used with 3D printing technology. 
+
+Directions:
+
+python OSFA.py
+
+Usage:

@@ -769,6 +769,10 @@ def closeImage():
 			saveButtonClicked()
 		canv.delete('all')
 		canv.configure(width=0,height=0)
+		canv.pack(pady=0)
+		root.geometry("600x600+0+0")
+		splashPanel = Label(root, image=splash)
+		splashPanel.pack(side='top', fill='both', expand='yes')
 		shapes.clear()
 		fileUnsaved = False
 	
